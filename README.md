@@ -23,4 +23,7 @@ Hold an (image of) a fruit in front of the camera and run the script.
 The model is also trained with a class 'idle' in case there is no fruit.
 
 ### Train your own!
-Use Google's Teachable Machine to train your own ML model: [teachablemachine.withgoogle.com] 
+Use Google's Teachable Machine to train your own ML model: [https://teachablemachine.withgoogle.com] 
+
+First train a model, export it in Tensorflow lite format. Copy the files to your raspberry and rename them (or edit the script). 
+Have fun!
