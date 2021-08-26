@@ -1,2 +1,4 @@
 0 apple
 1 banana
+2 Class 3
+3 idle
