@@ -19,7 +19,7 @@ camera.resolution = (224, 224)  # ML model expects 224x224 image
 # specify paths to local file assets
 path_to_labels = "fruit-labels.txt"
 path_to_model = "fruit-model.tflite"
-path_to_image = "images/fruit.jpg"
+path_to_image = "fruit.jpg"
 
 # confidence threshold at which you want to be notified of a new bird
 prob_threshold = 0.5
