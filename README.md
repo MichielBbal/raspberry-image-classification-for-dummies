@@ -20,7 +20,8 @@ Per the [https://www.tensorflow.org/lite/guide/python] , install tensorflow lite
 
 ### How to use:
 Hold an (image of) a fruit in front of the camera and run the script.
-The model is also trained with a class 'idle' in case there is no fruit.
+The provided model is trained on apples, oranges and bananas.
+The model is also trained with a class 'idle' in case there is no fruit at all.
 
 ### Train your own!
 Use Google's Teachable Machine to train your own ML model: [https://teachablemachine.withgoogle.com] 
