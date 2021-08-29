@@ -8,8 +8,9 @@ Image classfication on the Raspberry cannot be more simple!
 
 ### Software:
 Clone the repository
+[wiki](https://github.com/MichielBbal/RoboCar/wiki/RoboCar)
 
-Per the [https://www.tensorflow.org/lite/guide/python] , install tensorflow lite on the Raspberry:\
+Per the [Tensorflow lite instructions](https://www.tensorflow.org/lite/guide/python), install tensorflow lite on the Raspberry:\
 `echo "deb https://packages.cloud.google.com/apt coral-edgetpu-stable main" | sudo tee /etc/apt/sources.list.d/coral-edgetpu.list`
 
 `curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -`
@@ -24,7 +25,8 @@ The provided model is trained on apples, oranges and bananas.
 The model is also trained with a class 'idle' in case there is no fruit at all.
 
 ### Train your own!
-Use Google's Teachable Machine to train your own ML model: [https://teachablemachine.withgoogle.com] 
+Use Google's Teachable Machine to train your own ML model: [Teachable Machine](https://teachablemachine.withgoogle.com) 
 
-First train a model, export it in Tensorflow lite format. Copy the files to your raspberry and rename them (or edit the script). 
+First train a model, then export it in Tensorflow lite format. 
+Copy the files to your raspberry and rename them (or edit the script). 
 Have fun!
