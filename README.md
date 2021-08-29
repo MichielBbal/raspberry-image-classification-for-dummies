@@ -7,8 +7,7 @@ Image classfication on the Raspberry cannot be more simple!
 - Raspicam
 
 ### Software:
-Clone the repository
-[wiki](https://github.com/MichielBbal/RoboCar/wiki/RoboCar)
+First, clone the repository.
 
 Per the [Tensorflow lite instructions](https://www.tensorflow.org/lite/guide/python), install tensorflow lite on the Raspberry:\
 `echo "deb https://packages.cloud.google.com/apt coral-edgetpu-stable main" | sudo tee /etc/apt/sources.list.d/coral-edgetpu.list`
